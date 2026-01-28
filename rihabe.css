@@ -1,0 +1,94 @@
+/* Configuration générale */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header et Navigation */
+header {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header nav ul {
+    list-style-type: none; /* Pas de puces */
+    padding: 0;
+    display: flex; /* Menu horizontal */
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none; /* Pas de soulignement */
+    color: #333;
+    font-weight: bold;
+}
+
+/* Positionnement QR Code */
+.qr-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: white;
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+/* Tableaux */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #34495e;
+    color: white;
+}
+
+/* Boutons */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e67e22;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+/* Footer et Copyright spécifique */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.copyright {
+    font-style: italic;
+    color: #f1c40f; /* Couleur différente pour le copyright */
+}
+
+pre {
+    font-family: monospace;
+    font-size: 10px;
+    color: #00ff00;
+}
